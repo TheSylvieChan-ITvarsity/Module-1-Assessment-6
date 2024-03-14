@@ -1,6 +1,7 @@
 body {
     margin: 25px;
     display: block;
+    font-family: "Quicksand", sans-serif;
 }
 
 h1 {
@@ -55,6 +56,14 @@ footer hr {
 .footernote {
     padding-left: 25px;
     padding-right: 25px;
+    font-family: "Quicksand", sans-serif;
+}
+.aboutbio {
+    padding-left: 500px;
+    padding-right: 500px;
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
 }
 
 .button {

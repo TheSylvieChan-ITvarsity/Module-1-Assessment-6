@@ -1,0 +1,104 @@
+body {
+    margin: 25px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: -20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.third {
+    width: 33%;
+    min-width: 33%;
+    display: block;
+    text-align: center; 
+}
+
+.half {
+    width: 49%;
+    min-width: 49%;
+    display: block; 
+    text-align: center;
+}
+
+.half p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.product-image {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+footer hr {
+    size: 1px;    
+}
+
+.footernote {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button {
+    border-radius: 15px;
+    background-color: rgb(123, 90, 136);
+    color: white;
+    padding: 15px;
+    max-width: 125px;
+    margin: auto;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(86, 146, 86);
+}
+
+.tbl {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: left;
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.tbl th {
+    background-color: rgb(128, 71, 128);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: rgb(128, 71, 128);
+    padding-left: 10px;
+}
+
+.tbl td {
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
